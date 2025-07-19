@@ -1,0 +1,7 @@
+Running: xsim.dir/arm_cortex_m0_tb_behav/xsimk.exe -simmode gui -wdb arm_cortex_m0_tb_behav.wdb -simrunnum 0 -socket 59399
+Design successfully loaded
+Design Loading Memory Usage: 28380 KB (Peak: 28380 KB)
+Design Loading CPU Usage: 1265 ms
+Simulation completed
+Simulation Memory Usage: 29092 KB (Peak: 29092 KB)
+Simulation CPU Usage: 1358 ms

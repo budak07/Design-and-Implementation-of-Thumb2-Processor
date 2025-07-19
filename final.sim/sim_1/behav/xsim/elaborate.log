@@ -1,0 +1,33 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arm_cortex_m0_tb_behav xil_defaultlib.arm_cortex_m0_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.clock_divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_memory [instruction_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.adder [adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_register [instruction_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1 [mux_2x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_file [register_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.extender [extender_default]
+Compiling architecture behavioral of entity xil_defaultlib.id_ex_register [id_ex_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.status_register [status_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.data_memory [data_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_3x1 [mux_3x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.arm_cortex_m0 [arm_cortex_m0_default]
+Compiling architecture behavioral of entity xil_defaultlib.arm_cortex_m0_tb
+Built simulation snapshot arm_cortex_m0_tb_behav
