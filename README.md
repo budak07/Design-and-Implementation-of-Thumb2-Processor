@@ -49,16 +49,7 @@ Timing analysis performed in Vivado confirmed that all timing constraints were m
 
 The functionality of the Fibonacci program was visually verified by displaying the output on the FPGA's onboard LEDs.
 
-## 🛠️ Getting Started
 
-To run this project, you will need:
-* **Xilinx Vivado 2024.2** or a compatible version.
-* (Optional) A **Nexys 4 DDR** FPGA board for hardware implementation.
-
-1.  Clone the repository.
-2.  Open the project in Xilinx Vivado.
-3.  Run the behavioral simulation to observe the test programs executing.
-4.  To implement on hardware, run synthesis and implementation, then generate the bitstream and program the FPGA.
 
 ## 👥 Project Team
 
