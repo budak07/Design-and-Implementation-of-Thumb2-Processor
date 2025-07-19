@@ -1,17 +1,17 @@
-# Design and Implementation of an ARM Cortex-M0 Microprocessor on FPGA
+# Design and Implementation of a Thumb 2 Processor on FPGA
 
-This repository contains the VHDL source code and documentation for the design, simulation, and hardware implementation of a 32-bit ARM Cortex-M0 microprocessor on an FPGA. This project was completed as a graduation project for the Department of Electrical and Electronics Engineering at Eskişehir Technical University.
+This repository contains the VHDL source code and documentation for the design, simulation, and hardware implementation of a 32-bit microprocessor on an FPGA. This project was completed as a graduation project for the Department of Electrical and Electronics Engineering at Eskişehir Technical University.
 
 ## Abstract
 
-This project presents the design and simulation of a 32-bit ARM Cortex-M0 microprocessor using VHDL. The design is based on the ARMv6-M architecture, optimized for low-power embedded systems. It includes core components like the Arithmetic Logic Unit (ALU), register file, instruction decoder, and memory interface, integrated into a three-stage pipeline architecture (Instruction Fetch, Decode, and Execute). The processor's functionality was validated with programs for Fibonacci sequence calculation, power computation, and factorial operations. The design was successfully synthesized and implemented on a Nexys 4 DDR FPGA board, confirming its functionality in a hardware environment. This work demonstrates the feasibility of creating a compact microprocessor for embedded systems and serves as a foundation for future hardware implementations.
+This project presents the design and simulation of a 32-bit Thumb 2 Processor using VHDL. The design is based on the Thumb 2 Processor architecture, optimized for low-power embedded systems. It includes core components like the Arithmetic Logic Unit (ALU), register file, instruction decoder, and memory interface, integrated into a three-stage pipeline architecture (Instruction Fetch, Decode, and Execute). The processor's functionality was validated with programs for Fibonacci sequence calculation, power computation, and factorial operations. The design was successfully synthesized and implemented on a Nexys 4 DDR FPGA board, confirming its functionality in a hardware environment. This work demonstrates the feasibility of creating a compact microprocessor for embedded systems and serves as a foundation for future hardware implementations.
 
 ## 🚀 Key Features
 
-* **Processor Architecture**: 32-bit RISC processor based on the ARMv6-M architecture.
+* **Processor Architecture**: 32-bit RISC processor based on the Thumb 2 Processor architecture.
 * **Pipeline**: 3-stage pipeline (Instruction Fetch, Decode, Execute) for efficient instruction processing.
 * **Hardware Language**: Designed and implemented in VHDL.
-* **Instruction Set**: Supports a subset of the ARMv6-M Thumb instruction set, including arithmetic, logical, memory, and branch operations.
+* **Instruction Set**: Supports a subset of the Thumb 2 instruction set, including arithmetic, logical, memory, and branch operations.
 * **Development Tools**: Synthesized, simulated, and tested using the Xilinx Vivado 2024.2 suite.
 * **Hardware Platform**: Successfully implemented and verified on a **Nexys 4 DDR FPGA** board (featuring an Artix-7 FPGA).
 
@@ -27,11 +27,11 @@ The overall datapath of the processor is illustrated below.
 *(To display this image in your README, save Figure 15 from your report as a PNG or JPG file and place it in your repository. Then, update the path below.)*
 
 ![Processor Datapath](path/to/your/image/datapath.png)
-*Datapath of the implemented ARM Cortex-M0 Processor.*
+*Datapath of the implemented Thumb 2 Processor.*
 
 ## 🔬 Verification and Simulation
 
-The processor's correctness was verified through extensive simulations in Vivado. Several test programs were written in ARM assembly to validate different aspects of the architecture.
+The processor's correctness was verified through extensive simulations in Vivado. Several test programs were written in Thumb 2 Processor assembly to validate different aspects of the architecture.
 
 ### Test Programs
 1.  **Fibonacci Sequence**: An iterative program to test arithmetic operations, loops, and conditional branching.
@@ -66,8 +66,5 @@ To run this project, you will need:
     * Yunus Emre Doğan
     * Hasan Budak
     * Hayrettin Emre Bayazıt
-* **Supervisor**:
-    * Dr. Öğr. Üyesi Burak Batmaz
 
----
-*This README file was generated based on the project report "Design and Implementation of ARM Cortex-M0 Microprocessor on FPGA," dated June 2025.*
+
