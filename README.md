@@ -26,8 +26,6 @@ The overall datapath of the processor is illustrated below.
 
 *(To display this image in your README, save Figure 15 from your report as a PNG or JPG file and place it in your repository. Then, update the path below.)*
 
-![Processor Datapath](path/to/your/image/datapath.png)
-*Datapath of the implemented Thumb 2 Processor.*
 
 ## 🔬 Verification and Simulation
 
