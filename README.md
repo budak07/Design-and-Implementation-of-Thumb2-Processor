@@ -22,10 +22,6 @@ The microprocessor employs a three-stage pipeline to maximize instruction throug
 2.  **Instruction Decode (ID)**: Decodes the fetched instruction, reads operands from the Register File, and generates control signals.
 3.  **Execute (EX)**: Performs the operation specified by the instruction using the ALU and writes the result back to the Register File or memory.
 
-The overall datapath of the processor is illustrated below.
-
-*(To display this image in your README, save Figure 15 from your report as a PNG or JPG file and place it in your repository. Then, update the path below.)*
-
 
 ## 🔬 Verification and Simulation
 
